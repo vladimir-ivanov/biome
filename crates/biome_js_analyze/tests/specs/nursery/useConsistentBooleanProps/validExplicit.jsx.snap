@@ -1,3 +1,10 @@
+---
+source: crates/biome_js_analyze/tests/spec_tests.rs
+assertion_line: 151
+expression: validExplicit.jsx
+---
+# Input
+```jsx
 /* should not generate diagnostics */
 // Explicit true/false
 <input disabled={true} />;
@@ -39,3 +46,5 @@
 <Wrapper>
 	<ChildComponent disabled={false} />
 </Wrapper>;
+
+```

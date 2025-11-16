@@ -1,3 +1,3 @@
-<input disabled />;
-<input accept /** some comment */ />;
-<input /** some comment */ accept />;
+<input disabled={true} />;
+<input accept={true} /** some comment */ />;
+<input /** some comment */ accept={true} />;

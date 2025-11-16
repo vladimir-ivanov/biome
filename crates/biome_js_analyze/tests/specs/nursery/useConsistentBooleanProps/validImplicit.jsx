@@ -1,7 +1,6 @@
 /* should not generate diagnostics */
 // Explicit true/false
-<input disabled={true} />;
-<input disabled={false} />;
+<input disabled />;
 
 // Explicit falsy values
 <input disabled={0} />;
@@ -24,18 +23,3 @@
 <input disabled={someCondition ? true : false} />;
 <input disabled={Boolean(flag)} />;
 <input disabled={!!flag} />;
-
-// Multiple props on the same element
-<input disabled={false} readOnly={true} required={false} />;
-
-// JSX fragments with explicit boolean props
-<>
-	<input disabled={true} />
-	<button disabled={false} />
-</>;
-
-// Nested components with explicit boolean props
-<MyComponent disabled={true} someProp={false} />;
-<Wrapper>
-	<ChildComponent disabled={false} />
-</Wrapper>;

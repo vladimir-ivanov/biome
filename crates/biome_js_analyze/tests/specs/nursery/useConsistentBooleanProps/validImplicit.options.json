@@ -6,7 +6,7 @@
 				"useConsistentBooleanProps": {
 					"level": "error",
 					"options": {
-						"mode": "explicit"
+						"mode": "implicit"
 					}
 				}
 			}

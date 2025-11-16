@@ -52,6 +52,7 @@ declare_lint_rule! {
         recommended: false,
         severity: Severity::Information,
         fix_kind: FixKind::Safe,
+        deprecated: "Use the rule `useConsistentBooleanProps` with option `mode: explicit` instead.",
     }
 }
 

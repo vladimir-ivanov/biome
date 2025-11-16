@@ -3,10 +3,10 @@
 	"linter": {
 		"rules": {
 			"nursery": {
-				"useMaxParams": {
+				"useConsistentBooleanProps": {
 					"level": "error",
 					"options": {
-						"max": 1
+						"mode": "explicit"
 					}
 				}
 			}
